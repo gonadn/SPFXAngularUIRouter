@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.7.0",
+    "libraryName": "spfxae-ui-router",
+    "libraryId": "97ef7744-6136-4cb7-b141-7339558f7ad7",
+    "environment": "onprem",
+    "packageManager": "npm",
+    "isCreatingSolution": true,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/spfcaeUiRouter/SpfcaeUiRouterWebPart.js",
+      "manifest": "./src/webparts/spfcaeUiRouter/SpfcaeUiRouterWebPart.manifest.json",
+      "outputPath": "./dist/spfcae-ui-router-web-part.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "SpfcaeUiRouterWebPartStrings": "webparts/spfcaeUiRouter/loc/{locale}.js"
+  }
+}

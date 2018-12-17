@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfxae-ui-router-client-side-solution",
+    "id": "97ef7744-6136-4cb7-b141-7339558f7ad7",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfxae-ui-router.sppkg"
+  }
+}

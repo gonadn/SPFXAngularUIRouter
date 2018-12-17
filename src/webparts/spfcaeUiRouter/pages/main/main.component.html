@@ -1,0 +1,27 @@
+<!-- <div>
+    <label>Programmeny</label>
+    <span>test{{testData}}</span>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+            aria-describedby="button-addon2">
+    </div>
+    <hr />
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item" *ngFor="let d of data">
+            {{d.Title}}
+        </li>      
+    </ul>
+</div> -->
+<h1>Main...!!!!</h1>
+<span>{{test}}</span>
+<table>
+    <thead>
+        <th>Name</th>
+        <th>Index</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let hero of data">
+            <td>{{hero.name}}</td>
+        </tr>
+    </tbody>
+</table>
