@@ -1,20 +1,35 @@
+import {
+  IWebPartContext
+} from '@microsoft/sp-webpart-base';
 import { Injectable,OnInit } from '@angular/core';
 import { sp } from "@pnp/sp";
+import {
+  Environment,
+  EnvironmentType
+ } from '@microsoft/sp-core-library';
+ 
 @Injectable({
   providedIn: 'root',
 })
 
 export class BaseService implements OnInit {
-
+  public context: IWebPartContext;
   constructor() {
-    //console.log(this);
+    //this.context;
     // sp.setup({
     //   spfxContext: this.context
     // });
   }
 
-  public ngOnInit() {  
+  ngOnInit(){
+    console.log(this.context);
   }
+  // public onInit(): Promise<void> {
+
+  //   console.log(this.context.pageContext.web.absoluteUrl);
+
+  //   return Promise.resolve<void>();
+  // }
 
   public getByTitle(listName: any){
     var promise = new Promise((resolve, reject) => {

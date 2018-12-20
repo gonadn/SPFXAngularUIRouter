@@ -1,2 +1,16 @@
-<h1>{{test}}</h1>
-<ui-view></ui-view>
+
+<h5>AppComponent</h5>
+<table>
+    <thead>
+        <th>Name</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let hero of data">
+            <td>{{hero.name}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div>
+    <ui-view></ui-view>
+</div>

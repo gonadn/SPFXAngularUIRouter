@@ -32,7 +32,10 @@ import {APP_BASE_HREF} from '@angular/common';
   }
 ],
   entryComponents: [
-    AppComponent
+    AppComponent,
+    MainComponent,
+    SettingsComponent,
+    PageNotFoundComponent
   ]
 })
 export class AppModule {

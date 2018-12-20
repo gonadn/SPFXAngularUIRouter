@@ -2,7 +2,8 @@ import { Version } from '@microsoft/sp-core-library';
 import {
   BaseClientSideWebPart,
   IPropertyPaneConfiguration,
-  PropertyPaneTextField
+  PropertyPaneTextField,
+  IWebPartContext
 } from '@microsoft/sp-webpart-base';
 import { escape } from '@microsoft/sp-lodash-subset';
 
@@ -29,6 +30,7 @@ export default class SpfcaeUiRouterWebPart extends BaseClientSideWebPart<ISpfcae
 
   constructor(){
     super();
+  //  console.log(this.context.pageContext);
   }
   
   public render(): void {
