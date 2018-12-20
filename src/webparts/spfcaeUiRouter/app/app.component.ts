@@ -22,9 +22,7 @@ import {BaseService} from "./base.service"
       {id: 3, name:'Robin'},
       {id: 4, name:'Flash'}
     ];
-    constructor(public baseSrv:BaseService){
-      let listName = "TestList";
+    constructor(){
       this.data = this.heroes;
-      //console.log(this.context.pageContext);
     }
   }
